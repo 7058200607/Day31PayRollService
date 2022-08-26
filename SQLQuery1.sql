@@ -13,3 +13,6 @@ insert into emp_payroll values('sarthak',22000,'2019-08-14');
 insert into emp_payroll values('saurav',35000,'2021-12-19');
 ---UC4
 select *from emp_payroll;
+--UC5
+select *from emp_payroll where empname='punam';
+select *from emp_payroll where  start_date between CAST('2019-03-01' as  date)and GETDATE();
