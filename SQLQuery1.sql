@@ -11,3 +11,5 @@ insert into emp_payroll values('punam',30000,'2019-09-18');
 insert into emp_payroll values('aayushi',18000,'2021-06-16');
 insert into emp_payroll values('sarthak',22000,'2019-08-14');
 insert into emp_payroll values('saurav',35000,'2021-12-19');
+---UC4
+select *from emp_payroll;
